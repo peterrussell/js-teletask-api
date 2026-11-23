@@ -1,0 +1,35 @@
+{
+  "name": "js-teletask-api",
+  "version": "1.0.0",
+  "description": "A Node.js library for local Teletask DoIP control.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LIBRARY.md"
+  ],
+  "keywords": [
+    "teletask",
+    "home-automation",
+    "api",
+    "tcp",
+    "homebridge",
+    "doip"
+  ],
+  "author": "Peter Russell",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterrussell/js-teletask-api.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "optionalDependencies": {
+    "pino": "^9.3.2"
+  }
+}

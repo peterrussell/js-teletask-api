@@ -1,0 +1,19 @@
+{
+  "type": "MICROS_PLUS",
+  "host": "192.168.1.56",
+  "port": 55957,
+  "pin": "1234",
+  "mqtt": {
+    "enabled": true,
+    "url": "mqtt://127.0.0.1:1883",
+    "topicPrefix": "teletask"
+  },
+  "componentsTypes": {
+    "RELAY": [
+      { "number": 23, "description": "Living Room - Closet lights", "type": "light" }
+    ],
+    "SENSOR": [
+      { "number": 3, "description": "Temperature Sensor", "type": "TEMPERATURE", "ha_unit_of_measurement": "°C" }
+    ]
+  }
+}
